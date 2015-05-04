@@ -1,0 +1,165 @@
+
+BODY {
+	margin: 0px;
+	background-color: #464646;
+	font-family: Verdana;
+	font-size: 11px
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-align: justify;
+	color: #000000;
+}
+
+IMG
+{
+	border: 0px;
+}
+
+TD
+{
+	vertical-align: top;
+		padding: 0; 
+	border-width: 0; 
+	font-family: Verdana;
+	font-size: 11px
+}
+
+TD h2
+{
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: normal;
+	color: #0084FF;
+	font-size: 11px;
+	display: inline;
+}
+table {
+	margin: 0; 
+	padding: 0; 
+	font-size: 11px
+}
+
+A
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+A:hover
+{
+	color: #D1C75D;
+	text-decoration: none;
+}
+
+
+.center
+{
+	text-align: center
+}
+
+#footer
+{
+	background: url('images/footer.jpg') no-repeat;
+	width: 638px;
+	height: 99px;
+}
+
+
+#englobe
+{
+	position: absolute;
+	width: 638px;
+	margin-left: -325px;
+	left: 50%;
+	top: 0px;
+
+}
+input,select,textarea {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+}
+
+#header
+{
+	background: url('images/header.jpg') repeat-y;
+	width: 638px;
+	height: 215px;
+}
+
+#liens_header
+{
+
+	position: absolute; 
+	left: 17px; 
+	top: 142px; 
+	width: 600px; 
+	height: 23px; 
+	text-align: center;
+}
+
+.header a
+{
+	color: #FFFFFF;
+	font-family: Verdana;
+	font-size: 11px
+}
+
+.footer a
+{
+	color: #FFFFFF;
+	font-family: Verdana;
+	font-size: 11px
+}
+
+#contenu
+{
+	background: transparent url('images/centre.jpg') repeat-y;
+	padding: 0px 48px 0px 25px;
+		font-family: Verdana;
+	font-size: 10px
+}/* CSS partie XOOPS */
+
+.item {border: 1px solid #242424;}
+.itemHead {padding: 3px; background: #242424; color: #FFFFFF;}
+.itemInfo {text-align: right; padding: 3px; background-color: transparent}
+.itemTitle a {font-size: 98%; font-weight: bold; font-variant: small-caps; color: #FFFFFF; background-color: transparent;}
+.itemPoster {font-size: 85%; font-style:italic;}
+.itemPostDate {font-size: 85%; font-style:italic;}
+.itemStats {font-size: 85%; font-style:italic;}
+.itemBody {padding-left: 5px;background-color: transparent}
+.itemText {margin-top: 5px; margin-bottom: 5px; line-height: 1.5em;background-color: transparent; text-align: justify;}
+.itemText:first-letter {font-size: 155%; font-weight: bold;}
+.itemFoot {text-align: right; padding: 3px; background-color: transparent}
+.itemAdminLink {font-size: 85%;}
+.itemPermaLink {font-size: 85%;}
+
+th {background:#242424; color:#FFFFFF; padding : 2px; vertical-align : middle; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+.outer {border: 1px solid #242424;}
+.head {background-color: transparent; padding: 5px; font-weight: bold;}
+.even {background-color: transparent; padding: 5px;}
+.odd {background-color: transparent; padding: 5px;}
+.foot {background-color: transparent; padding: 5px; font-weight: bold;}
+
+tr.even td {background-color: transparent; padding: 5px;}
+tr.odd td {background-color: transparent; padding: 5px;}
+div.errorMsg { background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+div.xoopsCode { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+div.xoopsQuote { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #000000; font-weight:bold; border: 0px solid silver; background-color: TRANSPARENT; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #000000; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0px none;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; }
+.comDateCaption {font-weight: bold; font-style: normal;}
